@@ -1,0 +1,195 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:1180px;
+	margin:0 auto;
+}
+
+.row{
+	display:table;
+	width:100%;
+	clear:both;
+}
+
+[class^=col-]{
+	float:left;
+}
+
+.col-1{
+	width:calc(100% * 1 / 12);
+}
+
+.col-2{
+	width:calc(100% * 2 / 12);
+}
+
+.col-3{
+	width:calc(100% * 3 / 12);
+}
+
+.col-5{
+	width:calc(100% * 5 / 12);
+}
+
+.col-9{
+	width:calc(100% * 9 / 12);
+}
+
+.col-10{
+	width:calc(100% * 10 / 12);
+}
+
+.text-center{
+	text-align:center;
+}
+
+/*################### CSS for header section goes here #####################*/
+
+.header{
+	background-color:#fcdb00;
+	padding:52px 0 105px 0;
+}
+
+.navbar{
+	text-align:right;
+}
+
+.navbar li{
+	display:inline-block;
+	padding-left:75px;
+}
+
+.navbar li a{
+	text-decoration:none;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:capitalize;
+	display:inline-block;
+	padding:10px;
+}
+
+.pri-heading{
+	font-size:33px;
+	font-weight:bold;
+	text-transform:capitalize;
+	padding-top:128px;
+}
+
+.sec-heading{
+	font-size:20px;
+	margin:26px 0 26px 0;
+	color:#313841;
+}
+
+.para{
+	font-size:16px;
+	color:#555555;
+}
+
+.para ~ img{
+	width:40px;
+	height:40px;
+	margin:40px 37px 0 0;
+}
+
+.box{
+	padding-left:70px;
+	padding-top:70px;
+}
+
+/*######################### CSS for features section goes here ################################*/
+
+
+.section{
+	padding:120px 0 160px;
+}
+
+h1{
+	font-size:33px;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+h4{
+	color:#313841;
+	font-size:20px;
+	font-weight:400;
+}
+
+h5{
+	padding-top:95px;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.col-1 i{
+	padding-top:95px;
+	font-size:40px;
+}
+
+
+
+/*######################### CSS for footer section goes here ################################*/
+
+.footer{
+    background-color:black;
+	padding:95px 0 140px 0;
+}
+
+.heading{
+	font-size:32px;
+	color:#fcdb00;
+	padding-bottom:20px;
+}
+
+.para1{
+	font-size:20px;
+	color:#898989;
+}
+
+.div i{
+	color:#fcdb00;
+	font-size:40px;
+	margin-top:50px;
+	padding:10px;
+}
+
+form{
+	padding-top:40px;
+}
+
+form input{
+	width:580px;
+	height:50px;
+	border-radius:5px;
+	border:1px solid blue;
+	
+}
+.input{
+	width:130px;
+	background-color:#fcdb00;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+input::placeholder{
+	color:#898989;
+	padding-left:15px;
+}
+
+.info{
+	font-size:16px;
+	color:white;
+	padding-top:130px;
+}
+
+.info a{
+	text-decoration:none;
+	color:white;
+}
+
+
